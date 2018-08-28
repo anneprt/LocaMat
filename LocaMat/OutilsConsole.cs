@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace LocaMat
 {
-    class Program
+    public class OutilsConsole
     {
-        static void Main(string[] args)
-        {
-
-
-        }
     }
 }

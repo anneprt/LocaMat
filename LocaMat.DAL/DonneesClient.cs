@@ -4,14 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LocaMat
+namespace LocaMat.DAL
 {
-    class Program
+    class DonneesClient
     {
-        static void Main(string[] args)
-        {
-
-
-        }
     }
 }
