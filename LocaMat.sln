@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocaMat", "LocaMat\LocaMat.csproj", "{0D1A54A5-5482-4D63-A016-362A27A7E979}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocaMat.Business", "LocaMat.Business\LocaMat.Business.csproj", "{392AF77E-2728-4A29-8843-7E42BBC165DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocaMat.DAL", "LocaMat.DAL\LocaMat.DAL.csproj", "{D6FCDA57-0044-4E95-A157-62A8F4246CD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0D1A54A5-5482-4D63-A016-362A27A7E979}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D1A54A5-5482-4D63-A016-362A27A7E979}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D1A54A5-5482-4D63-A016-362A27A7E979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392AF77E-2728-4A29-8843-7E42BBC165DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392AF77E-2728-4A29-8843-7E42BBC165DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392AF77E-2728-4A29-8843-7E42BBC165DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392AF77E-2728-4A29-8843-7E42BBC165DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6FCDA57-0044-4E95-A157-62A8F4246CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FCDA57-0044-4E95-A157-62A8F4246CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FCDA57-0044-4E95-A157-62A8F4246CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FCDA57-0044-4E95-A157-62A8F4246CD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
