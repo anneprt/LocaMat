@@ -6,6 +6,7 @@ using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LocaMat.DAL.Data;
 
 namespace LocaMat.DAL
 {
@@ -23,15 +24,19 @@ namespace LocaMat.DAL
             }
         }
 
-        public IEnumerable<Client> GetListe()
+        public IEnumerable<Client> ListerClient()
         {
-            var listeContacts = new List<Client>();
+            //var listeContacts = new List<Client>();
 
-            using (var connexion = CreerConnexion())
+            using (var contexte = new Contexte()
             {
-                connexion.Open();
+                return contexte.Clients
+                   .Include(x => x.Clients)
+                   .OrderBy(x => x.Nom).ToList();
 
-                var commande = connexion.CreateCommand();
+                /*connexion.Open();
+
+               var commande = connexion.CreateCommand();
                 commande.CommandText = "SELECT * FROM Clients";
                 var reader = commande.ExecuteReader();
                 while (reader.Read())
@@ -45,10 +50,10 @@ namespace LocaMat.DAL
 
 
                     listeContacts.Add(client);
-                }
+                }*/
             }
 
-            return listeContacts;
+            //return listeContacts;
         }
 
         public void Supprimer(Client client)

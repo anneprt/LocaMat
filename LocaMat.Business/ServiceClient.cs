@@ -21,7 +21,7 @@ namespace LocaMat.Business
         {
             if (client == null)
             {
-                throw new BusinessException("Aucun contact n'a été fourni");
+                throw new BusinessException("Aucun client n'a été fourni");
             }
 
             if (string.IsNullOrWhiteSpace(client.Nom))
@@ -41,7 +41,7 @@ namespace LocaMat.Business
         {
             if (client == null)
             {
-                throw new BusinessException("Aucun contact n'a été fourni");
+                throw new BusinessException("Aucun client n'a été fourni");
             }
 
             this.donnees.Supprimer(client);

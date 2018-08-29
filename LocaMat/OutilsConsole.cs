@@ -175,5 +175,13 @@ namespace LocaMat
                 ConsoleColor.White);
             Console.ReadKey();
         }
+
+        public static void AfficherEntete()
+        {
+            Console.WriteLine("***********************");
+            Console.WriteLine("BIENVENUE CHEZ LOCA MAT !");
+            Console.WriteLine("***********************");
+            Console.WriteLine("\n");
+        }
     }
 }

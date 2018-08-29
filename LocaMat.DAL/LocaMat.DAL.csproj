@@ -62,7 +62,6 @@
     <Compile Include="Entites\Location.cs" />
     <Compile Include="Entites\OffreProduit.cs" />
     <Compile Include="Entites\Produit.cs" />
-    <Compile Include="Extensions.cs" />
     <Compile Include="IDonneesClient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
